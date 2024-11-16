@@ -1,0 +1,130 @@
+.img{
+    width: 90px;
+    height: 70px;
+    
+}
+.parentdiv{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.btn{
+    border-radius: 50px;
+}
+.btn1{
+font-size: 12px;
+}
+.btn-dark{
+    font-size: 18px;
+}
+.img1{
+    width: 200px;
+    height: 66px;
+}
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.dp h1 {
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 30px;
+}
+.text1{
+    font-size: 15px;
+}
+
+@media(max-width:768px){
+    .text1{
+        font-size: 11px;
+        padding-left: 42px;
+    }
+    .img{
+        width: 63px;
+        height: 63px;
+    }
+    .btn-dark {
+        font-size: 11px;
+    }
+    .btn1 {
+        font-size: 4px;
+    }
+}
+
+@media(max-width:1024px){
+        .text1 {
+            font-size: 17px;
+            padding-left: 20px;
+        }
+}
+
+
+@media(max-width:426px){
+    .text1 {
+        font-size: 14px;
+        padding-left: 32px;
+    }
+}
+@media(max-width:376px){
+    .text1 {
+        font-size: 11px;
+        padding-left: 37px;
+    }
+    .btn-dark {
+        font-size: 8px;
+    }
+}
+
+@media(max-width:460px){
+    .text1 {
+        font-size: 15px;
+        padding-left: 34px;
+    }
+    .btn-dark {
+        font-size: 9px;
+    }
+    .img {
+        width: 64px;
+        height: 72px;
+    }
+    .img1 {
+        width: 103px;
+        height: 30px;
+    }
+}
+
+@media(max-width:321px){
+    .btn-dark {
+        font-size: 6px;
+    }
+    .text1 {
+        font-size: 10px;
+        padding-left: 43px;
+    }
+}

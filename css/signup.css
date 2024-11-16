@@ -1,0 +1,167 @@
+.alldiv{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+body{
+    background-image: url('images/pexels-engin-akyurt-1435849.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tdiv{
+    background-color: white;
+    text-align: center;
+
+}
+.sign2{
+    font-family: lucida calligraphy;
+    padding-top: 16px;
+    font-size: 26px;
+}
+.face{
+    float: left;
+    padding-left: 12px;
+    padding-top: 2px;
+    font-size: 23px;
+}
+.btn{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#sign-up{
+    background-color: white;
+}
+.form-input{
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.p{
+    color: black;
+    font-size:13px ;
+    margin-left: 17px;
+}
+.p a{
+    color: black;
+}
+.sign-btn{
+    width: 185px;
+    height: 57px;
+}
+.arrow{
+    float: right;
+    padding-right:14px;
+    padding-top: 2px;
+    font-size: 23px;
+}
+.hr1{
+    width: 38%;
+    margin-left: 45px;
+    margin-right: -23px;
+}
+.hr2{
+    width: 35%;
+    margin-left: -17px;
+}
+.btn1{
+    width: 100%;
+    margin-left: 12px;
+}
+.btn2{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.tdiv{
+    background-color: white;
+    text-align: center;
+
+}
+.sign1{
+    height: 50px;
+    text-align: center;
+    padding-top: 11px;
+}
+.sign2{
+    text-decoration: none;
+    color: black;
+    font-family: lucida calligraphy;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.face{
+    float: left;
+    padding-left: 12px;
+    padding-top: 2px;
+    font-size: 23px;
+}
+.btn{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#sign-in{
+    background-color: white;
+}
+.form-input{
+    /* margin-left: 150px; */
+    border: 1px solid black;
+    margin-bottom: 15px;
+    /* width: 470px; */
+}
+.p{
+    color: black;
+    font-size:13px ;
+    margin-left: 17px;
+}
+.p a{
+    color: black;
+}
+.sign-btn{
+    width: 185px;
+    height: 57px;
+}
+.arrow{
+    float: right;
+    padding-right:14px;
+    padding-top: 2px;
+    font-size: 23px;
+}
+.forget{
+    text-decoration: none;
+    font-size: 19px;
+}
+.hr1{
+    width: 38%;
+    margin-left: 65px;
+    margin-right: -23px;
+}
+.hr2{
+    width: 35%;
+    margin-left: -17px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+@media(max-width:768px){
+    .hr1{
+        margin-left: 38px;
+    }
+}
+@media(max-width:425px){
+    .hr1 {
+        margin-left: 38px;
+    }
+}
+

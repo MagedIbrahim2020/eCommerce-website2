@@ -1,0 +1,119 @@
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+body,html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.dp h1 {
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 35px;
+}
+
+.imgdiv4 {
+    margin-top: 24px;
+}
+
+.carousel-item,.carousel-control-prev,.carousel-control-next{
+    height: 600px;
+}
+.carousel-item img{
+    height: 100% !important;
+}
+@media(max-width: 768px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 400px;
+    }
+}
+@media(max-width: 536px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 300px;
+    }
+}
+@media(max-width: 425px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 200px;
+    }
+}
+.img3{  
+    height: 205px;
+    width: 285px;
+}
+@media(max-width:1025px){
+    .img3 {
+        height: 195px;
+        width: 211px;
+    } 
+    .fl h2 {
+     font-size: 29px;
+    }
+}
+
+@media(max-width:768px){
+    .img3 {
+        height: 203px;
+        width: 201px;
+    }
+    .img4 {
+        margin-top:-23px;
+    }
+    .imgdiv4 {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:460px){
+    .img3 {
+        height: 240px;
+        width: 434px;
+    } 
+}
+
+@media(max-width:426px){
+    .img3 {
+        height: 240px;
+        width: 403px;
+
+    } 
+}
+@media(max-width:376px){
+    .img3 {
+        height: 235px;
+        width: 349px;
+    }
+}
+@media(max-width:321px){
+    .img3 {
+        height: 228px;
+        width: 296px;
+    }
+}

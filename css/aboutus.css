@@ -1,0 +1,141 @@
+.dp h1 {
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+body{
+    background: linear-gradient(black , lightgray);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0px;
+    
+}
+.box{
+    border: 0px solid white;
+    box-shadow: 0px 0px 17px 3px whitesmoke;
+    background-color: #778c99ba;
+    border-radius: 20px;
+    transition: 2s ease;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box h1{
+    text-align: center;
+    font-family: lucida calligraphy;
+    color: brown;
+    font-size: 55px;
+}
+.img1{
+    height: 100%;
+    width: 102%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 1s ease;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.img2{
+    height: 329px;
+    width: 443px;
+    border-radius: 30px;
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 30px;
+}
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+@media(max-width: 1024px){
+    .img2{
+        width: 359px;
+    }
+   
+}
+@media(max-width: 768px){
+    .img2{
+        width:259px;
+        height: 439px;
+    }
+    .box{
+        width: 694px;
+    }
+   
+}
+@media(max-width: 460px){
+    .img2{
+        width: 403px;
+        height: 320px;
+    }
+    .img1{
+        width: 397px;
+        height: 96%;
+    }
+    .box{
+        width: 96%;
+    }
+}
+@media(max-width: 426px){
+    .img2{
+        width: 364px;
+        height: 275px;
+    }
+    .img1{
+        width: 364px;
+        height: 86%;
+    }
+}
+
+@media(max-width: 376px){
+    .img2{
+        width: 320px;
+        height: 284px;
+    }
+    .img1 {
+        width: 319px;
+        height: 86%;
+    }
+    .img1 {
+        width: 330px;
+    }
+   
+}
+
+@media(max-width: 321px){
+    .img2{
+        width: 268px;
+        height: 236px;
+    }
+    .img1 {
+        width: 270px;
+    }
+   
+}
+

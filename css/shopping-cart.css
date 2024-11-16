@@ -1,0 +1,115 @@
+.parentdiv{
+   margin-top: 1%;
+   margin-bottom: 1%;
+   border-radius: 25px;
+   border: 20px solid mediumslateblue ;
+   
+   
+}
+.div1{
+    background-color: white;
+    border-radius: 6px 0px 0px 6px;
+}
+.div2{
+    background-color: lightsteelblue;
+    border-radius: 0px 6px 6px 0px;
+}
+.img{
+    width: 90px;
+    height: 70px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.dp h1 {
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 30px;
+}
+
+ 
+
+@media (max-width: 768px){
+.p{
+    padding-left: 29px;
+}
+.div1 {
+        border-radius: 6px 6px 0px 0px;
+}
+.p {
+    padding-left: 33px;
+}
+.text1{
+    font-size: 25px;
+}
+}
+
+@media(max-width:426px){
+    .p {
+        padding-left: 45px;
+        font-size: 11px;
+    }
+    .text2{
+        padding-left: 73px;
+    }
+} 
+
+@media(max-width:376px){
+    .text1 {
+        font-size: 21px;
+    }
+    h5 .link{
+        font-size: 18px;  
+    }
+} 
+@media(max-width:321px){
+    .p {
+        padding-left: 29px;
+        font-size: 11px;
+    }
+    .text1{
+        font-size: 17px;
+    }
+    .text2{
+        font-size: 13px;
+    }
+    .img {
+        width: 66px;
+        height: 66px;
+    }
+    .price{
+        margin-left: -12px;
+        font-size: 14px;
+    }
+} 

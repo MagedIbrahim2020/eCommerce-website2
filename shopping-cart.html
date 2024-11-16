@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/shopping-cart.css">
+    <title>Shopping-cart</title>
+</head>
+<body style="background-color: darkgray;">
+    <nav class="navbar navbar-expand-lg bg-dark-subtle p-0">
+        <div class="container-fluid bg-secondary bg-gradient">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html"> Contact Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop </a>
+              </li>
+            </ul>
+            <ul class="nav justify-content-end ">
+              <li class="nav-item">
+                <a class="nav-link " href="wishlist.html"><img class="wishlist-link-img" src="images/WhatsApp Image 2023-08-29 at 3.40.43 AM.jpeg"></a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link shop-cart1" href="shopping-cart.html"><i class="fa-solid fa-cart-shopping fa-fade fa-lg ps-2"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign" href="signup.html"><i class="fa-solid fa-user fa-lg text-light"></i></a>
+              </li>
+            
+              <!-- <li class="nav-item">
+                <a class="nav-link sign" href="#signin-tab">Sign in </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- ********************************************************************************* -->
+    <div class="container parentdiv">
+        <div class="row ">
+            <div class="col-lg-9 col-md-7 col-sm-12 col-12 ">
+                <div class="row div1">                 
+                 <div class="col-lg-9 col-md-9 col-sm-6 col-6 mt-3">
+                <h1 class="text1">Shopping Cart</h1>
+            </div>
+                 <div class="col-lg-3 col-md-3 col-sm-6   col-6 mt-4">
+                <h5 class="text2">4 items</h5>
+            </div>
+            
+            <hr class="mt-4 mb-4" >
+            
+            <div class="col-2"><img class="img" src="images/clothes_image/pexels-chelsi-peter-1564149.jpg"></div>
+            <div class="col-3"><p class="p">shirt <br><i>Cotton T-shirt</i></p></div>
+            <div class="col-3 mt-3">- <input class="input w-25" type="text"> + </div>
+            <div class="col-2 mt-3"><p class="price">$44.00</p></div>
+            <div class="col-2 mt-3"><i class="fa-solid fa-xmark icon" id="icon"></i></div>
+
+            <hr class="mt-4 mb-4" >
+
+            <div class="col-2"><img class="img" src="images/clothes_image/pexels-elena-rubtsova-14711708.jpg"></div>
+            <div class="col-3"><p class="p">shirt <br><i>Cotton T-shirt</i></p></div>
+            <div class="col-3 mt-3">- <input class="input w-25" type="text"> + </div>
+            <div class="col-2 mt-3"><p class="price">$348.00</p></div>
+            <div class="col-2 mt-3"><i class="fa-solid fa-xmark icon" id="icon"></i></div>
+
+            <hr class="mt-4 mb-4" >
+
+            <div class="col-2"><img class="img" src="images/shoes/pexels-frans-van-heerden-847371.jpg"></div>
+            <div class="col-3"><p class="p">shirt <br><i>Cotton T-shirt</i></p></div>
+            <div class="col-3 mt-3">- <input class="input w-25" type="number"> + </div>
+            <div class="col-2 mt-3"><p class="price">$44.00</p></div>
+            <div class="col-2 mt-3"><i class="fa-solid fa-xmark icon" id="icon"></i></div>
+
+            <hr class="mt-4 mb-4" >
+
+            <div class="col-2"><img class="img" src="images/clothes_image/pexels-ali-pazani-2836486.jpg"></div>
+            <div class="col-3"><p class="p">shirt <br><i>Cotton T-shirt</i></p></div>
+            <div class="col-3 mt-3">- <input class="input w-25" type="number"> + </div>
+            <div class="col-2 mt-3"><p class="price">$278.00</p></div>
+            <div class="col-2 mt-3"><i class="fa-solid fa-xmark icon" id="icon"></i></div>
+
+            <hr class="mt-4 mb-4" >
+           <div class="col-12 link mb-5">
+            <h5 class="link"><a href="shop.html"><i class="fa-solid fa-arrow-left me-2"></i>Back To Shop</a></h5>
+           </div>
+
+            </div>
+            </div>
+            <!-- ************************************ -->
+            <div class="col-lg-3 col-md-5 col-sm-12 col-12 div2">
+                <div class="container">
+                      <div class="row">
+                        <div class="col-12" ><h3 class="mt-3 Summary">Summary</h3></div>
+                        <hr class="mt-5 mb-4" >
+                        
+                            <div class=" col-6 mb-4"><h5 class="h5">ITEMS 4</h5></div>
+                            <div class=" col-6 mb-4"><h5 class="h5" >$712</h5></div>
+                        
+                       <div class="col-12" ><H5 class="h5">Shopping</H5></div>
+
+                          <div class="col-12 mb-3">
+                            <select class="form-select bg-" aria-label="Default select example">
+                              <option selected>Standerd-delivery $55.00</option>
+                              <option value="1">excilent-delivery $70.00</option>
+                              <option value="2">good-delivery $40.00</option>
+                              <option value="3">slow-delivery $30.00</option>
+                            </select>
+                          </div>
+
+
+                          <div class="col-12" ><h5 class="h5">GIVE COOD</h5></div>
+                            <div class="col-12 ">
+                          <input class="form-control border border-black btn btn-text mt-2 mb-5" type="text" placeholder="Enter your code">
+                          </div>
+                        <hr>
+                            <div class="col-6 mt-3"><h5 class="h5">Total Price</h5></div>
+                            <div class="col-6 mt-3"><h5 class="h5">$ 712</h5></div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-dark mt-5 w-100">REGISTER</button>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- **************************************************** -->
+     <div class="container-fluid  bg-dark bg-gradient text-light p-3">
+      <div class="container">
+      <div class="row pt-5 ">
+        <div class="col-lg-4 col-md-6  col-sm-12 dp">
+         <h1>Migo Products</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eveniet voluptate omnis
+            velit fuga incidunt animi dolores .</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 fl" >
+         <h2>Contact Us</h2>
+         <a href="www.google">Facebook</a><br>
+         <a href="www.google">Email</a><br>
+         <a href="www.google">Whatsap</a><br>
+         <a href="www.google">Twiter</a><br>
+         <a href="www.google">instgram</a><br>
+        </div>
+        <div class="col-lg-3 col-md-6  col-sm-12  fl" >
+         <h2>Community</h2>
+         <a href="www.google">Issues</a><br>
+         <a href="www.google">Discussions</a><br>
+         <a href="www.google">sponsors</a><br>
+         <a href="www.google">Open Collective</a><br>
+         <a href="www.google">Stack Overflow</a><br>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 fl " >
+         <h2>Complimet</h2>
+         <p>please contact with us via:</p>
+         <a href="www.google">Facebook</a><br>
+         <a href="www.google">Email</a><br>
+         <a href="www.google">Whatsap</a><br>
+         <a href="www.google">Twiter</a><br>
+         <a href="www.google">instgram</a><br>
+        </div>
+      </div>
+     </div>
+    </div>
+
+    <!-- **************************************************** -->
+    <script src="js/shopping_cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

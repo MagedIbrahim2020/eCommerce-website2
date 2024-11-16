@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+.div1{
+    text-align: center;
+    margin-top: 70px;
+    background-color: white;
+    padding-top: 90px;
+     padding-bottom: 90px;
+}
+.sign-btn{
+    margin-top: 25px;
+    width: 185px;
+    height: 45px;
+}
+.email{
+    margin-left: 95px;
+    margin-top: 23px;
+}
+
+
+
+
+@media(max-width:1024px){
+    .email {
+        margin-left: 58px;
+        margin-top: 23px;
+    }
+    .h1{
+        font-size: 25px;
+    }
+    .p{
+        font-size: 13px;
+    }
+}
+@media(max-width:426px){
+    .email {
+        margin-left: 37px;
+    }
+    .p {
+        font-size: 10px;
+    }
+    .h1 {
+        font-size: 22px;
+    }
+}
+@media(max-width:320px){
+    .email {
+        margin-left: 27px;
+    }
+}

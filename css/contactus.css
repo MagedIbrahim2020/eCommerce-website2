@@ -1,0 +1,95 @@
+.div1 p{
+    font-size: 17px;
+}
+.div1 h1{
+    color: brown;
+    padding-bottom: 15px;
+
+}
+.img{
+    font-size: 65px;
+    text-align: center
+}
+.dd p{
+    padding-left: 70px;
+    padding-top: 17px;
+}
+.dd i{
+    font-size: 50px;
+    padding-left: 58px;
+    padding-top: 10px;
+    color: red;
+    padding-bottom: 25px;
+}
+.dd{
+    display: inline-block;
+    padding-left: 10px;
+}
+.div1:hover{
+    transform: scale(1.04);
+    
+}
+.dp h1 {
+    font-family:lucida calligraphy;
+    font-size:50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.div1{
+    transition: 3s ease;
+    margin-bottom: 2%;
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 30px;
+}
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+@media(max-width:320px){
+    .dd p {
+        padding-left: 50px;
+    }
+    .dd i{
+        padding-left: 28px;
+    }
+}
+@media(max-width:768px){
+.dd i{
+    padding-left: 41px;
+}
+.dd p {
+    padding-left: 64px;
+}
+.div1:hover {
+    transform: none;
+}
+}
+
+@media(max-width:320px){
+    .dd i{
+        padding-left: 29px;
+    }
+    }

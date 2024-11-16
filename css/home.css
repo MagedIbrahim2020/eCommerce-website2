@@ -1,0 +1,61 @@
+body,html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.fl a{
+    text-decoration: none;
+    color: white;
+    font-family: lucida calligraphy;
+    font-size: 18px;
+}
+.fl a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.dp h1 {
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    
+}
+.dp p{
+    font-family: lucida calligraphy;
+
+}
+.fl h2{
+   
+    font-family: lucida calligraphy;
+    font-size: 35px;
+}
+.sign{
+    font-size: 20px;
+}
+.shop-cart1{
+    font-size: 20px;
+    color: white;
+}
+.wishlist-link-img{
+    width: 119px;
+    height: 33px;
+}
+.carousel-item,.carousel-control-prev,.carousel-control-next{
+    height: 600px;
+}
+.carousel-item img{
+    height: 100% !important;
+}
+@media(max-width: 768px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 400px;
+    }
+}
+@media(max-width: 536px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 300px;
+    }
+}
+@media(max-width: 425px){
+    .carousel-item,.carousel-control-prev,.carousel-control-next{
+        height: 200px;
+    }
+}
